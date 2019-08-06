@@ -25,6 +25,7 @@ visualization/
 out.svg
 
 /bin/
+.cache-main
 
 /test-scenario.log
 /test-scenario-perf.log
