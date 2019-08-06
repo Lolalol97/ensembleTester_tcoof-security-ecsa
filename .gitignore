@@ -24,5 +24,7 @@ precompute.data
 visualization/
 out.svg
 
+/bin/
+
 /test-scenario.log
 /test-scenario-perf.log

@@ -4,7 +4,7 @@ object Utils {
   /** Internal method used in pretty-printing solving results */
   private[tcof] def indent(str: String, level: Int) = {
     val indented = str.lines.map("  " * level + _)
-    val joined = indented.mkString("\n")
+    val joined = indented //indented.mkString("\n") // <-- mkString not found
     joined + (if (str.endsWith("\n")) "\n" else "") // handle end newline
   }
 
